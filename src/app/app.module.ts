@@ -20,7 +20,9 @@ import { SafedomPipe } from './safedom.pipe';
     AboutComponent,
     HeroesComponent,
     SearchComponent,
-    UnheroeComponent
+    UnheroeComponent,
+    VideoComponent,
+    SafedomPipe
   ],
   imports: [
     BrowserModule,
