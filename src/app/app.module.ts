@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
+import { VideoComponent } from './video/video.component';
+import { SafedomPipe } from './safedom.pipe';
 
 @NgModule({
   declarations: [
