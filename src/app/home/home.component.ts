@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+
+storeName(email:any,nombre:any,sexo:any,fecha:any) {
+  localStorage.setItem('email',email);
+  localStorage.setItem('nombre',nombre);
+  localStorage.setItem('sexo',sexo);
+  localStorage.setItem('fecha',fecha);
+}
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
