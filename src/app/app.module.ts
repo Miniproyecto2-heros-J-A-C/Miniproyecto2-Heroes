@@ -29,11 +29,12 @@ import { FormsModule } from '@angular/forms';
     VideoComponent,
     SafedomPipe,
     ImageComponent,
-    SugerenciasComponent
+    SugerenciasComponent,
+    TablaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,FormsModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
