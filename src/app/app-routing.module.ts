@@ -11,7 +11,7 @@ import { SearchComponent } from './search/search.component';
 
 import { UnheroeComponent } from './unheroe/unheroe.component';
 
-
+import { TablaComponent } from './tabla/tabla.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'heroes', component: HeroesComponent},
@@ -20,6 +20,7 @@ const routes: Routes = [
   {path: 'image', component: ImageComponent},
   {path: 'sugerencias', component: SugerenciasComponent},
   {path: 'heroe/:id', component: UnheroeComponent},
+   {path: 'tabla', component: TablaComponent},
   {path: 'buscador/:nombreh', component: SearchComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
