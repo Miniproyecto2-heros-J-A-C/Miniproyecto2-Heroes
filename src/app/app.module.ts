@@ -13,6 +13,9 @@ import { VideoComponent } from './video/video.component';
 import { SafedomPipe } from './safedom.pipe';
 import { ImageComponent } from './image/image.component';
 import { SugerenciasComponent } from './sugerencias/sugerencias.component';
+import { TablaComponent } from './tabla/tabla.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
