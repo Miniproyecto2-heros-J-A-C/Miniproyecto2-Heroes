@@ -1,7 +1,12 @@
 <div class="row animated fadeIn fast" *ngIf="indice == -1">
     <div class="co-md-12">
         <div class="alert alert-info" role="alert">
-            No existen resultados de {{nombreh}}
+             <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Error de busqueda</h1>
+                  <p class="lead">No existen resultados de {{nombreh}}</p>
+                </div>
+              </div>
         </div>
     </div>
 </div>
