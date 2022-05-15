@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HomeComponent } from './home/home.component';
 import { VideoComponent } from './video/video.component';
-
+import { ImageComponent } from './image/image.component';
 
 import { SearchComponent } from './search/search.component';
 
@@ -16,6 +16,7 @@ const routes: Routes = [
   {path: 'heroes', component: HeroesComponent},
   {path: 'about', component: AboutComponent},
   {path: 'video', component: VideoComponent},
+  {path: 'image', component: ImageComponent},
   {path: 'heroe/:id', component: UnheroeComponent},
   {path: 'buscador/:nombreh', component: SearchComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
