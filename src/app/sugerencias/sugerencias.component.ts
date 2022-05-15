@@ -10,6 +10,7 @@ import { HeroeService } from '../shared/heroe.service';
   styleUrls: ['./sugerencias.component.css']
 })
 export class SugerenciasComponent implements OnInit {
+  misHeroes: Heroe[] = [];
   i: string=''
   miheroe: Heroe={
     nombre:"",

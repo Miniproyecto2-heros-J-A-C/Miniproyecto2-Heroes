@@ -12,6 +12,7 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { VideoComponent } from './video/video.component';
 import { SafedomPipe } from './safedom.pipe';
 import { ImageComponent } from './image/image.component';
+import { SugerenciasComponent } from './sugerencias/sugerencias.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ImageComponent } from './image/image.component';
     UnheroeComponent,
     VideoComponent,
     SafedomPipe,
-    ImageComponent
+    ImageComponent,
+    SugerenciasComponent
   ],
   imports: [
     BrowserModule,
